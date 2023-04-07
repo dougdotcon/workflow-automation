@@ -1,3 +1,59 @@
+Fazer depois:
+
+Express: para criar uma API web que permita que os usuários enviem o link do repositório do GitHub que desejam analisar.
+request: para fazer requisições à API do GitHub e obter os dados do repositório.
+Jest: para escrever testes automatizados para o seu código.
+
+Feito em partes:
+Arquitetura construída:
+
+Transpilador de pseudocódigo para TypeScript
+
+Recebe o código em pseudocódigo como entrada
+Realiza análise léxica e sintática
+Gera código TypeScript correspondente
+Verifica a validade do código gerado e compila, se necessário
+Fornece feedback ao usuário
+Integração com o ambiente de desenvolvimento
+
+Coleta de dados do repositório do GitHub usando a API do GitHub
+
+Usuário fornece o link do repositório do GitHub
+API do GitHub é utilizada para coletar dados do repositório, como arquivos de código, informações de commit, comentários e problemas
+Os dados coletados são limpos e transformados, se necessário
+
+Análise de código
+O código-fonte do repositório é analisado para identificar funções personalizadas escritas em pseudocódigo
+Expressões regulares e lógica de análise sintática são utilizadas para identificar essas funções personalizadas
+Transformação de pseudocódigo em TypeScript
+
+O transpilador é usado para converter funções personalizadas escritas em pseudocódigo para código TypeScript correspondente
+Carregamento de dados
+
+O código TypeScript gerado é carregado no sistema do usuário ou em outro sistema de gerenciamento de código
+
+O carregamento pode ser realizado automaticamente pelo sistema ou o usuário pode ser solicitado a fazer o carregamento manualmente
+
+Essa arquitetura visa simplificar o processo de conversão de pseudocódigo para TypeScript e automatizar a análise e transformação de repositórios do GitHub. Isso permite que os desenvolvedores se concentrem em escrever código de alta qualidade, melhorando a produtividade e a eficiência do desenvolvimento de software.
+
+
+A implementação proposta envolve o uso do GPT-4 em várias etapas do processo de análise e transformação de repositórios do GitHub.
+
+Primeiro, o usuário fornece o link do repositório do GitHub que deseja analisar. O GPT-4 é usado para coletar os dados do repositório, como arquivos de código, informações do commit, comentários e problemas.
+
+Depois que os dados são coletados, o GPT-4 é usado para limpar e transformar os dados. Isso envolve a remoção de caracteres especiais e a formatação do código para torná-lo mais legível.
+
+Em seguida, o código-fonte do repositório é analisado usando expressões regulares e lógica de análise sintática para identificar as funções personalizadas escritas em pseudo código.
+
+Uma vez que as funções personalizadas são identificadas, o GPT-4 é usado para transformar o pseudo código em código TypeScript correspondente usando um transpiler que foi previamente criado. O código gerado é então verificado para validade e compilado, se necessário.
+
+Finalmente, o código TypeScript correspondente é carregado no sistema do usuário ou em outro sistema de gerenciamento de código. Isso pode ser feito automaticamente pelo GPT-4, ou o usuário pode ser solicitado a fazer o carregamento manualmente.
+
+A arquitetura construída também inclui um transpilador de pseudocódigo para TypeScript que recebe o código em pseudocódigo como entrada, realiza análise léxica e sintática, gera código TypeScript correspondente e fornece feedback ao usuário.
+
+A integração com o ambiente de desenvolvimento é outro recurso importante da arquitetura. Com a automação do processo de análise e transformação de repositórios do GitHub, os desenvolvedores podem se concentrar na criação de código de alta qualidade, melhorando a produtividade e a eficiência do desenvolvimento de software.
+
+
 Transpilador de Pseudocódigo para TypeScript e Análise de Repositórios do GitHub
 Este projeto consiste em um transpilador de pseudocódigo para TypeScript e uma ferramenta de análise de repositórios do GitHub, que utiliza a API do GitHub para coletar e processar dados de repositórios.
 
