@@ -1,64 +1,46 @@
-Transpilador de Pseudocódigo para TypeScript e Análise de Repositórios do GitHub
-Este projeto consiste em um transpilador de pseudocódigo para TypeScript e uma ferramenta de análise de repositórios do GitHub, que utiliza a API do GitHub para coletar e processar dados de repositórios.
-
-Funcionalidades
-Transpilador de pseudocódigo para TypeScript
-Análise de código para identificar funções personalizadas escritas em pseudocódigo
-Coleta de dados do repositório do GitHub usando a API do GitHub
-Limpeza e transformação de dados coletados
-Carregamento de dados gerados no sistema do usuário ou em outro sistema de gerenciamento de código
-
-Requisitos
-Node.js
-npm
-Instalação
-Clone o repositório:
-
-git clone https://github.com/seu_usuario/seu_repositorio.git
-Entre no diretório do projeto:
-cd seu_repositorio
-
-Instale as dependências do projeto:
-npm install
-
-Uso
-Coloque o código em pseudocódigo no arquivo input.txt no diretório do projeto.
-
-Execute o transpilador:
-node transpiler.js
-
-Para usar o transpilador de pseudocódigo para TypeScript e a ferramenta de análise de repositórios do GitHub, siga os passos abaixo:
-
-Transpilador de pseudocódigo para TypeScript
-
-Coloque o código em pseudocódigo que você deseja converter em TypeScript no arquivo input.txt no diretório do projeto.
-
-Abra o terminal, navegue até o diretório do projeto e execute o transpilador com o seguinte comando:
-
-node transpiler.js
-
-O transpilador irá processar o código em pseudocódigo e gerar o código TypeScript correspondente. Verifique o arquivo output.ts no diretório build para ver o código TypeScript gerado.
-
-Análise de repositórios do GitHub
-Abra o arquivo github_analysis.js no diretório do projeto.
-
-Insira o link do repositório do GitHub que você deseja analisar e seu token de acesso pessoal do GitHub na seção apropriada do arquivo
-
-const githubRepositoryURL = "https://github.com/seu_usuario/seu_repositorio.git";
-const githubAccessToken = "seu_token_de_acesso_pessoal";
-
-No terminal, navegue até o diretório do projeto e execute o script de análise do GitHub com o seguinte comando:
-
-node github_analysis.js
-
-O script irá coletar e processar os dados do repositório do GitHub especificado e fornecerá informações relevantes sobre o repositório. A saída será exibida no terminal e, se necessário, os dados gerados serão salvos no sistema do usuário ou em outro sistema de gerenciamento de código, conforme definido no script.
-
-Verifique o arquivo output.ts no diretório build para ver o código TypeScript gerado.
-
-Para utilizar a análise de repositórios do GitHub, siga as instruções no arquivo github_analysis.js.
-
-Contribuições
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
-
-Licença
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais detalhes.
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transpilador de Pseudocódigo para TypeScript e Análise de Repositórios do GitHub</title>
+</head>
+<body>
+	<h1>Transpilador de Pseudocódigo para TypeScript e Análise de Repositórios do GitHub</h1>
+	<p>Este projeto consiste em um transpilador de pseudocódigo para TypeScript e uma ferramenta de análise de repositórios do GitHub, que utiliza a API do GitHub para coletar e processar dados de repositórios.</p>
+	<h2>Funcionalidades</h2>
+	<ul>
+		<li>Transpilador de pseudocódigo para TypeScript</li>
+		<li>Análise de código para identificar funções personalizadas escritas em pseudocódigo</li>
+		<li>Coleta de dados do repositório do GitHub usando a API do GitHub</li>
+		<li>Limpeza e transformação de dados coletados</li>
+		<li>Carregamento de dados gerados no sistema do usuário ou em outro sistema de gerenciamento de código</li>
+	</ul>
+	<h2>Requisitos</h2>
+	<ul>
+		<li>Node.js</li>
+		<li>npm</li>
+	</ul>
+	<h2>Instalação</h2>
+	<p>Clone o repositório:</p>
+	<pre>git clone https://github.com/seu_usuario/seu_repositorio.git</pre>
+	<p>Entre no diretório do projeto:</p>
+	<pre>cd seu_repositorio</pre>
+	<p>Instale as dependências do projeto:</p>
+	<pre>npm install</pre>
+	<h2>Uso</h2>
+	<p>Coloque o código em pseudocódigo no arquivo input.txt no diretório do projeto.</p>
+	<p>Execute o transpilador:</p>
+	<pre>node transpiler.js</pre>
+	<p>Para usar o transpilador de pseudocódigo para TypeScript e a ferramenta de análise de repositórios do GitHub, siga os passos abaixo:</p>
+	<h3>Transpilador de pseudocódigo para TypeScript</h3>
+	<p>Coloque o código em pseudocódigo que você deseja converter em TypeScript no arquivo input.txt no diretório do projeto.</p>
+	<p>Abra o terminal, navegue até o diretório do projeto e execute o transpilador com o seguinte comando:</p>
+	<pre>node transpiler.js</pre>
+	<p>O transpilador irá processar o código em pseudocódigo e gerar o código TypeScript correspondente. Verifique o arquivo output.ts no diretório build para ver o código TypeScript gerado.</p>
+	<h3>Análise de repositórios do GitHub</h3>
+	<p>Abra o arquivo github_analysis.js no diretório do projeto.</p>
+	<p>Insira o link do repositório do GitHub que você deseja analisar e seu token de acesso pessoal do GitHub na seção apropriada do arquivo</p>
+	<pre>const githubRepositoryURL = "https://github.com/seu_usuario/seu_repositorio.git";
+const githubAccessToken = "seu_token_de_acesso_pessoal";</pre>
+	<p>No terminal, navegue até o diretório do projeto e execute o script de análise do GitHub com o seguinte comando:</p>
+	<pre>node github_analysis.js</pre>
+	<p
