@@ -1,28 +1,28 @@
-Fazer depois:
+## Fazer depois:
 
 Express: para criar uma API web que permita que os usuários enviem o link do repositório do GitHub que desejam analisar.
 request: para fazer requisições à API do GitHub e obter os dados do repositório.
 Jest: para escrever testes automatizados para o seu código.
 
-Feito em partes:
+## Feito em partes:
 Arquitetura construída:
 
-Transpilador de pseudocódigo para TypeScript
+##  Transpilador de pseudocódigo para TypeScript
 
-Recebe o código em pseudocódigo como entrada
-Realiza análise léxica e sintática
-Gera código TypeScript correspondente
-Verifica a validade do código gerado e compila, se necessário
-Fornece feedback ao usuário
-Integração com o ambiente de desenvolvimento
++ Recebe o código em pseudocódigo como entrada
+- Realiza análise léxica e sintática
+- Gera código TypeScript correspondente
+- Verifica a validade do código gerado e compila, se necessário
+- Fornece feedback ao usuário
+- Integração com o ambiente de desenvolvimento
 
-Coleta de dados do repositório do GitHub usando a API do GitHub
+##  Coleta de dados do repositório do GitHub usando a API do GitHub
 
 Usuário fornece o link do repositório do GitHub
 API do GitHub é utilizada para coletar dados do repositório, como arquivos de código, informações de commit, comentários e problemas
 Os dados coletados são limpos e transformados, se necessário
 
-Análise de código
+## Análise de código
 O código-fonte do repositório é analisado para identificar funções personalizadas escritas em pseudocódigo
 Expressões regulares e lógica de análise sintática são utilizadas para identificar essas funções personalizadas
 Transformação de pseudocódigo em TypeScript
@@ -57,30 +57,31 @@ A integração com o ambiente de desenvolvimento é outro recurso importante da 
 Transpilador de Pseudocódigo para TypeScript e Análise de Repositórios do GitHub
 Este projeto consiste em um transpilador de pseudocódigo para TypeScript e uma ferramenta de análise de repositórios do GitHub, que utiliza a API do GitHub para coletar e processar dados de repositórios.
 
-Funcionalidades
-Transpilador de pseudocódigo para TypeScript
-Análise de código para identificar funções personalizadas escritas em pseudocódigo
-Coleta de dados do repositório do GitHub usando a API do GitHub
-Limpeza e transformação de dados coletados
-Carregamento de dados gerados no sistema do usuário ou em outro sistema de gerenciamento de código
+## Funcionalidades
+- Transpilador de pseudocódigo para TypeScript
+- Análise de código para identificar funções personalizadas escritas em pseudocódigo
+- Coleta de dados do repositório do GitHub usando a API do GitHub
+- Limpeza e transformação de dados coletados
+- Carregamento de dados gerados no sistema do usuário ou em outro sistema de gerenciamento de código
 
-Requisitos
-Node.js
+## Requisitos
+- Node.js
 npm
-Instalação
+
+## Instalação
 Clone o repositório:
 
 git clone https://github.com/seu_usuario/seu_repositorio.git
 Entre no diretório do projeto:
 cd seu_repositorio
 
-Instale as dependências do projeto:
+## Instale as dependências do projeto:
 npm install
 
-Uso
+## Uso
 Coloque o código em pseudocódigo no arquivo input.txt no diretório do projeto.
 
-Execute o transpilador:
+## Execute o transpilador:
 node transpiler.js
 
 Para usar o transpilador de pseudocódigo para TypeScript e a ferramenta de análise de repositórios do GitHub, siga os passos abaixo:
@@ -95,7 +96,7 @@ node transpiler.js
 
 O transpilador irá processar o código em pseudocódigo e gerar o código TypeScript correspondente. Verifique o arquivo output.ts no diretório build para ver o código TypeScript gerado.
 
-Análise de repositórios do GitHub
+## Análise de repositórios do GitHub
 Abra o arquivo github_analysis.js no diretório do projeto.
 
 Insira o link do repositório do GitHub que você deseja analisar e seu token de acesso pessoal do GitHub na seção apropriada do arquivo
@@ -113,8 +114,8 @@ Verifique o arquivo output.ts no diretório build para ver o código TypeScript 
 
 Para utilizar a análise de repositórios do GitHub, siga as instruções no arquivo github_analysis.js.
 
-Contribuições
+## Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-Licença
+## Licença
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais detalhes.
